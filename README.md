@@ -1,10 +1,16 @@
 #
 1、安装BBR魔改版
+
 wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash ./bbr.sh install
+
 蓝底窗⼝按tab键，选NO回车
+
 输入Y重启
+
 bash bbr.sh start
+
 2、安装SS
+
 wget --no-check-certificate -O shadowsocks-libev-debian.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev-debian.sh
 chmod +x shadowsocks-libev-debian.sh
 ./shadowsocks-libev-debian.sh 2>&1 | tee shadowsocks-libev-debian.log
